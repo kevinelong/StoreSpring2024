@@ -1,8 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: lightyellow;
     color: darkred;
+    padding: 1rem;
 }
+
 
 .card{
     background-color: white;
@@ -11,10 +17,27 @@ body{
     width: 300px;
     display: inline-flex;
     flex-direction: column-reverse;
+    margin: 0 1rem 1rem 0;
+    box-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
+    padding: 1rem;
+    position: relative;
 }
+
 .card .desc{
     font-size: 0.8rem;
 }
+
 .card .title{
     font-size: 1.2rem;
+}
+
+.card img.image{
+    position: absolute;
+    left: 0;
+    right:0; 
+    top: 0;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    object-fit: contain;
 }
