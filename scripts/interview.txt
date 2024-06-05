@@ -1,0 +1,86 @@
+1. Can you explain the difference between HTML, CSS, and JavaScript?
+
+a. HTML is putting all things together. CSS Design. JS Active.
+b. html like a human body. CSS is how body looks. JS what it can do.
+c. html is the stucture like a building. css like interior design paint ocor carpet. JS Functionality elevator. 
+d. html is the content and the meaning structure.
+d2 css is like the paint color inside and out
+d3 js is like thie wiring and plumbing that connects everything together and to the outside world.
+
+2. How do you ensure your code is accessible to users with disabilities?
+a. alt attribute on images
+b. use high contrast colors (also include a dark mode)
+c. use specific semantic tags not just divs e.g. nav, article, header, footer
+
+3. Describe the difference between GET and POST requests.
+a. POST is Creating and GET is Reading
+b. POST can also be used for updating in place of PUT if PUT is not allowed.
+c. GET Reteive. POST SEND.
+d. GET sends data on the URL which is visible. POST send HIDDEN BODY not URL. 
+
+
+4. How would you optimize a website's performance?
+a. how fast? 
+- use a profiler to measure 
+- what are we sending, 
+- can we send less? 
+- end in different order? fetch(JSON)?
+
+5. How do you handle cross-browser compatibility issues?
+a. caniuse.com
+b. not much these days
+c. historically we used frameworks like bootstrap or jquery
+
+
+6. What are the differences between server-side 
+and client-side programming?
+a. client === front-end === BRowser, server == back-end, DATA
+b. A. client, local device user touches. JS HTML CSS is executed.
+b. B. server, sercure, shared, remote data source in cloud.
+few servers and many clients
+
+
+7. How do you secure a web application against common vulnerabilities?
+
+POST instead of GET
+Do anything that needs to be secure should be done on the server.
+and require user identification.
+
+8. How would you approach collaborating with,
+ designers and other developers on a project?
+
+a. mAKE SURE WE ARE USING vERSION cONTROL E.G. git AND GITHUB
+b. agree on coding conventions (code format - lint)
+c. use a design process to generate wireframes (draw pictures) before starting.
+d. agree on data format of the api and the endpoints for the api /product/ JSON example.
+
+9. Can you explain the concept of asynchronous programming?
+
+Multi-tasking. Parallel. Many things at the same time. 
+Hard to manage vs linear/sychronous.
+Use await to avoid using it. Instead of using promises and call-back functions.
+
+10. Tell me about your experience working remotely.
+
+source code control
+zoom
+ms teams
+breaking up project into atomic step
+
+11. Can you discuss a recent web development project you worked on,
+ including challenges you faced and how you overcame them?
+
+12. Describe your daily routine as a web developer.
+git pull
+code
+git commit -m "" every little thing
+git push often e.g. everytime we get up from desk
+use branches so we can push without affecting others
+defer merging until branch works right
+use PRs(Pull Requests) that others review before merging.
+
+
+What makes you stand out from other web developer candidates,
+ for this position?
+
+GET PERSONAL. WHATS DIFFERENT ABOUT YOU AND YOUR HISTORY?
