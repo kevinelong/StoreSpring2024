@@ -41,3 +41,9 @@ body{
     background-color: white;
     object-fit: contain;
 }
+.remove{
+    color: blue;
+}
+.remove:hover{
+    text-decoration: underline;
+}
